@@ -7,6 +7,14 @@
  *    hobbies
  */
 
+let groupHobbies = ['model trains', 'competitive sailing', 'photography'];
+
+//of loop
+for( let hobby of groupHobbies ){
+    console.log( 'this is my hobby ', hobby );
+}// end loop
+console.log( groupHobbies.length );
+
 
 // Example output
 // 1. swimming
@@ -25,6 +33,16 @@
  * 4. Output the array and number of times teal was found
  */
 
+let colors = [ 'teal', 'purple', 'teal', 'red', 'blue'];
+let tealCount = 0;
+//start of loop
+for( let color of colors ){
+    console.log( 'the color is ', color );
+    if( color === 'teal' ){
+        tealCount++;
+    }//end teal count
+}//end for loop
+console.log( 'teal was found', tealCount, 'times.')
 
 // Example output
 // green, red, teal, orange, teal
@@ -41,6 +59,24 @@
  * 4. Output the original array, odd number array and even number array
  */
 
+let numbers = [ 8, 9, 4, 3, 7, 1 ];
+let oddNumbers = [];
+let evenNumbers = [];
+//of loop
+
+for( let index of numbers ){
+    for( let i=0; i < 10; i += 2 ) {
+        if( index === i ){
+            evenNumbers.push( index );
+        } 
+        else if( index === i -1 ){
+            oddNumbers.push( index );
+        }
+    }
+}
+console.log( numbers );
+console.log( evenNumbers );
+console.log( oddNumbers );
 
 // Example output
 // 3, 7, 2, 8, 11, 4, 2
@@ -56,6 +92,24 @@
  * 3. Write a loop that adds the opposite value to the toggled array
  * 4. Output both arrays
  */
+
+let booleanValues = [ true, false, true, true, false ];
+
+let toggled = [];
+
+for( let index of booleanValues ){
+    if( index === true ){
+        toggled.push( false );
+    } 
+    else if( index === false){
+        toggled.push( true );
+    }
+}
+
+console.log( booleanValues );
+console.log( toggled );
+
+
 
 
 // Example output
