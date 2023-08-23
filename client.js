@@ -127,6 +127,12 @@ console.log( toggled );
  * 3. Output the array
  */
 
+let numberArray = [1, 4, 0, 6, 9, 5, 0, 0];
+
+while( numberArray[ numberArray.length - 1 ] === 0 ){
+    numberArray.pop();
+}
+console.log ( numberArray );
 
 // Example output
 // Before loop 3, 0, 2, 8, 0, 0, 0
