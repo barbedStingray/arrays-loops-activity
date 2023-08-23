@@ -137,7 +137,7 @@ console.log( toggled );
  * #6 (STRETCH) Greatest Position Distance
  * --------------------
  * 1. Create a largish array of numbers, including at least two different
- *    numbers that repeat (e.g. 0, 2, 2, 7, 4, 1, 7, 8)
+ *    numbers that repeat (e.g. )
  * 2. Write a loop that finds the greatest position distance between
  *    repeating numbers in your array. In the above example, the 2's have
  *    a distance of 1, while the 7's have a distance of 3, so the
